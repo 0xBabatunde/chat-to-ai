@@ -41,7 +41,7 @@ function Home() {
           The Go-To App for Conversing with AI
           </h2>
           <p className="max-w-[42rem] leading-normal text-slate-700 sm:text-xl sm:leading-8">
-          Chat to AI is trusted by thousands of users worldwide who rely on its cutting-edge AI technology to power their conversations. Whether you're looking to improve your productivity, gain new insights, or simply engage in a fun and informative chat, Chat To AI is the go-to app for anyone who wants to chat with AI technology. With its intuitive interface, powerful AI algorithms, and world-class customer support, Chat To AI is the perfect tool for anyone who wants to unlock the full potential of AI.
+          Chat to AI is trusted by thousands of users worldwide who rely on its cutting-edge AI technology to power their conversations. Whether you&apos;re looking to improve your productivity, gain new insights, or simply engage in a fun and informative chat, Chat To AI is the go-to app for anyone who wants to chat with AI technology. With its intuitive interface, powerful AI algorithms, and world-class customer support, Chat To AI is the perfect tool for anyone who wants to unlock the full potential of AI.
           </p>
         </div>
         </section>
