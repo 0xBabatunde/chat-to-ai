@@ -1,5 +1,5 @@
 {
-  "repository": "https://github.com/vercel/examples.git",
+  "repository": "chat-to-ai",
   "license": "MIT",
   "private": true,
   "scripts": {

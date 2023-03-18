@@ -1,24 +1,17 @@
-import type { AppProps } from 'next/app'
-import { Analytics } from '@vercel/analytics/react'
-import type { LayoutProps } from '@vercel/examples-ui/layout'
-
-import { getLayout } from '@vercel/examples-ui'
-
+import React from 'react';
 import '@vercel/examples-ui/globals.css'
+import { useEffect } from 'react';
+import { AppProps } from 'next/app';
 
-function App({ Component, pageProps }: AppProps) {
-  const Layout = getLayout<LayoutProps>(Component)
 
+
+function MyApp({ Component, pageProps }: AppProps) {
+  useEffect(() => {
+    document.body.classList?.remove('loading')
+  }, []);
   return (
-    <Layout
-      title="ai-chatgpt"
-      path="solutions/ai-chatgpt"
-      description="ai-chatgpt"
-    >
-      <Component {...pageProps} />
-      <Analytics />
-    </Layout>
+            <Component {...pageProps} />
   )
 }
 
-export default App
+export default MyApp
